@@ -17,6 +17,9 @@ h2{
 p{
 	width: 75%;
 }
+img {
+	border: 1px solid #021a40;
+}
 
 /* id formatting */
 
