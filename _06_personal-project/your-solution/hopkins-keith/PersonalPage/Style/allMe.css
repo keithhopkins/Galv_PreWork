@@ -40,6 +40,12 @@ img {
 	width: 200px;
 	position: absolute;
 }
+#picTextDan {
+	text-align: justify;
+	width: 200px;
+	position: absolute;
+	top: 825px;
+}
 #reid {
 	height: 275px;
 	width: 200px;
