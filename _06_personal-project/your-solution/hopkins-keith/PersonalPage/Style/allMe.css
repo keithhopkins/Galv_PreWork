@@ -1,0 +1,92 @@
+/* To do: find a way to float the picture of mom and dad in the middle with the other 4 images around it in an 'X' shape then
+when you mouse over the images the blurb about each person should slide down from the image to become visible
+*/
+
+/* tag formatting */
+header{
+	font-size: 40px;
+	font-weight: bold;
+}
+section{
+	margin: 5px;
+	padding: 30px;
+}
+h2{
+	background-color: #b3ff6b;
+}
+p{
+	width: 75%;
+}
+
+/* id formatting */
+
+#keith {
+	height: 250px;
+	width: 450px;
+}
+
+#parents {
+	height: 300px;
+	width: 200px;
+	position: absolute;
+	left: 400px;
+	bottom: 150px;
+}
+#dan {
+	height: 300px;
+	width: 200px;
+	position: absolute;
+}
+#reid {
+	height: 275px;
+	width: 200px;
+	position: absolute;
+	left: 750px;
+	bottom: 360px;
+}
+#ross {
+	height: 200px;
+	width: 250px;
+	position: absolute;
+	bottom: -20px;
+}
+#cats {
+	height: 215px;
+	width: 250px;
+	position: absolute;
+	bottom: -20px;
+	left: 750px;
+}
+
+/* class formatting */
+
+.img {
+	height: 900px;
+}
+.picText {
+	display: none;
+	text-align: justify;
+	width: 200px;
+}
+.picText2 {
+	display: none;
+	text-align: justify;
+	width: 250px;
+}
+/*.left {
+	float: left;
+	margin-left: 20%;
+}
+.right {
+	float: right;
+	margin-right: 20%;*/
+}
+/*resets the floats after my images to allow for the HTML to flow normally*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
