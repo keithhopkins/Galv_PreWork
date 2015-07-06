@@ -1,0 +1,24 @@
+.noBullets {
+		list-style: none
+		margin: 0;
+		padding: 0;
+}
+img {
+	height: 44px;
+	width: 32px;
+
+}
+/*.red {
+	background-color: red;
+	color: green;
+}
+.green {
+	background-color: green;
+	color: red;
+}
+aside{
+	float: right;
+}
+section{
+	float: left;
+}*/
